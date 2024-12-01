@@ -1,6 +1,6 @@
 import moment from "moment";
 import { getSession, useSession } from "next-auth/client";
-import db from "../../firebase.js";
+import db from "../../firebase";
 import Header from "../components/Header";
 import Order from "../components/Order";
 
